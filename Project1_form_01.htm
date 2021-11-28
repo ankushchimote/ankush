@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta name=viewport content=width=device-width initial-scale=1>
+<style>
+  body {
+  background-image: url(https://images.unsplash.com/photo-1541411438265-4cb4687110f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+  background-color: rgba(58, 58, 158, 0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  div {
+     background-color: rgba(27, 27, 50, 0.8);
+	 border-radius: 10px;
+	 height: 100%;
+	 width: 45%;
+	 margin-left: 18%;
+	 
+	 padding-top: 5%;
+	 padding-left: 6%;
+	 padding-right: 10%;
+	 text-align: justify;
+	.pink{font-weight: 400;}
+  }
+  p.z {
+  font-size: 20px;
+  margin-bottom: 5%;
+  margin-top:5%;
+  }
+  p.y {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+  
+  
+  }
+  input[type="text"] {
+     width: 100%;
+	 padding: 1%;
+	font-size: 15px;
+	border-radius:5px;
+  
+  }
+  .white { color:white;
+  }
+  
+  select {
+    width: 100%;
+	padding: 2%;
+	border-radius: 10px;
+	
+	}
+  p.x {
+   font-size: 20px;
+   text-align: justify;
+   margin-bottom: 20px;
+   }
+   p.w {
+   font-size: 20px;
+   text-align: justify;
+   margin-bottom: 20px;
+   }
+   
+   input[type="thus"] {
+	 padding: 1;
+	 width: 104%;
+	 border-radius: 10px;
+	 font-size: 15px;
+	 padding: 10px;
+	 height: 200px;
+	 resize: vertical;
+	 }
+	 p.v {
+	 font-size: 20px;
+   text-align: justify;
+   margin-bottom: 20px;
+	 }
+   .button {
+     width: 107%;
+     background-color: #4CAF50;
+     color: white;
+     padding: 14px 2px;
+     margin: 4px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     }
+	 .input-radio,
+     .input-checkbox {
+      display: inline-block;
+      margin-right: 0.625rem;
+      min-height: 1.25rem;
+      min-width: 1.25rem;
+	  color: white;
+      }
+	  
+     .input-textarea {
+      min-height: 120px;
+      width: 100%;
+      padding: 0.625rem;
+      resize: vertical;
+      }
+	  .Maybe {
+	  color: white;
+	  }
+  p {
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  font-size:32px;
+  color: white;
+  
+  }
+  
+</style>
+<body>
+
+<p> Pogramming Camp Survey Form</p>
+<p class="z"><dfn>Thank you for taking the time to help us improve the platform<dfn></p>
+<div>
+    <form action="2.html">
+	      <section class="white" <label  for="name" style="font-size:1.5vw;"> Name</label><br><br>
+          <input type="text" id="name" name="name"  placeholder="Enter your name" required><br><br>
+		 <section class="white"> <label id="abcd" for="name" style="font-size:1.5vw;"> Email</label></section><br>
+         <input type="text" id="Email" name="Email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="something@gmail.com" required><br><br>
+         <section class="white"<label for="Age" style="font-size:1.5vw;"> Mobile Number</label><br><br>
+          <input type="text" id="MobileNumber" name="Mobile Number" pattern="[1-9]{1}[0-9]{9}" placeholder="Enter your Mobile Number" required><br>
+		  
+		  <p class="x"> Would you recommend Programming Camp to a friend?</p>
+
+<article id="pink">
+		  <input  type="radio"  name="fav_language" value="Definitely">
+          <label  for="Definitely"style="font-size:1.5vw;">Definitely</label><br></br>
+          <input type="radio"  name="fav_language" value="Maybe">
+          <label for="Maybe" style="font-size:1.5vw;">Maybe</label><br><br>
+          <input type="radio" name="fav_language" value="Notsure">
+          <label for="Notsure" style="font-size:1.5vw;">Notsure</label><br><br></article>
+		  
+		  <p class="y">What is your favorite feature of Programming Camp?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+          <option >Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">community</option>
+          <option value="openSource">open source</option><br><br>
+		  
+		<p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+       
+      </select>
+		  
+		  
+		  <p class="w">What would you like to see improved? (Check all that apply)</p>
+		  <input  type="checkbox" id="Excited" name="fav_language" value="Excited">
+          <label  for="Excited" style="color:white">Front-end projects</label><br></br>
+          <input type="checkbox" id="Loved" name="fav_language" value="Loved">
+          <label for="Loved" style="color:white">Back-end project</label><br><br>
+          <input type="checkbox" id="Elated" name="fav_language" value="Elated">
+          <label for="Elated" style="color:white">Data Visulisation</label><br><br>
+		  <input  type="checkbox" id="Excited" name="fav_language" value="Excited">
+          <label  for="Excited" style="color:white">Challenges</label><br></br>
+          <input type="checkbox" id="Loved" name="fav_language" value="Loved">
+          <label for="Loved" style="color:white">Open Source Community</label><br><br>
+          <input type="checkbox" id="Elated" name="fav_language" value="Elated">
+          <label for="Elated" style="color:white">Gitter Help Rooms</label><br><br>
+          <input type="checkbox" id="Loved" name="fav_language" value="Loved">
+          <label for="Loved" style="color:white">Videos</label><br><br>
+          <input type="checkbox" id="Elated" name="fav_language" value="Elated">
+          <label for="Elated" style="color:white">City meetups</label><br><br>
+		  
+		  <p class="y">Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+		  
+		  
+		  
+		  
+          <p class="v" style="font-size: 20px;">Any comments or suggestions?</p>
+          <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+          ></textarea>
+    
+		  
+		   <br><br>
+		   <button class="button" id="submit"  type="submit">Submit</button>
+		  
+		  
+          </select>
+	</form>	  
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
